@@ -21,7 +21,7 @@ namespace CardioLibrary
         public static string Battiti(int x)
         {
             string risposta="";
-
+            
             if (x < 60)
             {
                 risposta = "bradicardico";
